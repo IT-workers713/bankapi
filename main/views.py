@@ -75,5 +75,5 @@ def submit_form(request):
            messages.success(request,'Application Status: {}'.format(answer))
     else:
        form = ApprovalForm()
-    return render(request,'main/form.html',{"form":form})
+    return render(request,'main/forms.html',{"form":form})
     

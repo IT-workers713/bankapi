@@ -57,7 +57,7 @@ ROOT_URLCONF = 'django_enviornment.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r"C:\Users\acer\Desktop\bank_loan\django_enviornment\main\templates"],
+        'DIRS': [r"G:\Bank-loan-machine-learning-django\main\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
